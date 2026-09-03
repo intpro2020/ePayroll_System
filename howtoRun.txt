@@ -1,0 +1,15 @@
+How to Run Your Database Payroll System:
+Make sure you have Node.js installed on your computer.
+
+Open your terminal or command prompt inside your project folder.
+
+Install dependencies by running:
+
+Bash
+npm init -y
+npm install express sqlite3
+Start the server:
+
+Bash
+node server.js
+Open your web browser and go to http://localhost:3000. Changes you add via the web form will now safely persist inside a local SQLite database (payroll.db).
